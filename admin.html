@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo"><img src="img/Whitelogo.png" alt="logo"></div>
+            <nav class="nav-links">
+                <a href="Home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="gameroom.html">Игровая комната</a>
+                <a href="admin.html">Админ-панель</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-wrap">
+                    <img src="img/search.png" class="pixel-icon" alt="поиск">
+                    <input type="text" placeholder="Поиск...">
+                </div>
+                <a href="cart.html" class="icon-btn"><img src="img/cart.png" class="pixel-icon" alt="корзина"></a>
+                <a href="cabinet.html" class="icon-btn"><img src="img/user.png" class="pixel-icon" alt="профиль"></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="page-header">
+            <h1><img src="img/settings.png" class="pixel-icon-md" alt=""> АДМИН-ПАНЕЛЬ</h1>
+            <p>Личный кабинет администратора — управление системой без кода</p>
+        </div>
+
+        <div class="admin-menu">
+            <div class="admin-card">
+                <div class="emoji"><img src="img/Box2.png" class="pixel-icon-lg" alt=""></div>
+                <h3>Товары и категории</h3>
+                <p>Добавление и редактирование</p>
+                <button class="btn-sm">Управлять</button>
+            </div>
+            <div class="admin-card">
+                <img src="img/auction.png" alt="Аукционы" class="pixel-icon-lg">
+                <h3>Аукционы</h3>
+                <p>Создание торгов</p>
+                <button class="btn-sm">Управлять</button>
+            </div>
+            <div class="admin-card">
+                <div class="emoji"><img src="img/task3.png" class="pixel-icon-lg" alt=""></div>
+                <h3>Опросники</h3>
+                <p>Создание квизов</p>
+                <button class="btn-sm">Управлять</button>
+            </div>
+            <div class="admin-card">
+                <div class="emoji"><img src="img/p1.png" class="pixel-icon-lg" alt=""></div>
+                <h3>Пользователи</h3>
+                <p>Управление профилями</p>
+                <button class="btn-sm">Управлять</button>
+            </div>
+        </div>
+
+        <div class="admin-section">
+            <div class="admin-section-header">
+                <h2>Карточки товаров</h2>
+                <button class="btn-primary">Создать новую карточку</button>
+            </div>
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Выходные в загородном отеле</td>
+                        <td><button class="btn-sm">Редактировать</button> <button class="btn-sm btn-danger">Удалить</button></td>
+                    </tr>
+                    <tr>
+                        <td>Футболка STILT</td>
+                        <td><button class="btn-sm">Редактировать</button> <button class="btn-sm btn-danger">Удалить</button></td>
+                    </tr>
+                    <tr>
+                        <td>Панама</td>
+                        <td><button class="btn-sm">Редактировать</button> <button class="btn-sm btn-danger">Удалить</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="logo"><img src="img/Blacklogo.png" alt="logo"></div>
+            <div>
+                <h4>Навигация</h4>
+                <a href="Home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="gameroom.html">Игровая комната</a>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <p>Да@gmil.ru</p>
+                <p>+7 (495) 123-45-67</p>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Админ панель</p></div>
+    </div>
+</footer>
+
+</body>
+</html>

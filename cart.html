@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo"><img src="img/Whitelogo.png" alt="logo"></div>
+            <nav class="nav-links">
+                <a href="Home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="gameroom.html">Игровая комната</a>
+                <a href="admin.html">Админ-панель</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-wrap">
+                    <img src="img/search.png" class="pixel-icon" alt="поиск">
+                    <input type="text" placeholder="Поиск...">
+                </div>
+                <a href="cart.html" class="icon-btn"><img src="img/cart.png" class="pixel-icon" alt="корзина"></a>
+                <a href="cabinet.html" class="icon-btn"><img src="img/user.png" class="pixel-icon" alt="профиль"></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="page-header">
+            <h1><img src="img/cart.png" class="pixel-icon-md"> КОРЗИНА</h1>
+            <p>Проверьте заказ и подтвердите покупку</p>
+        </div>
+
+        <div class="cart-container">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <div class="cart-item-image">🧢</div>
+                    <div class="cart-item-details">
+                        <h3>Панама</h3>
+                        <p>Размер: М | Цвет: Бежевый</p>
+                        <div class="cart-item-price">8,0 <img src="img/coin.png" alt="монета" class="coin"></div>
+                    </div>
+                    <div class="cart-item-quantity">
+                        <label>Кол-во:</label>
+                        <input type="number" value="2">
+                    </div>
+                    <div class="cart-item-total">16,0 <img src="img/coin.png" alt="монета" class="coin"></div>
+                    <button class="cart-item-remove"><img src="img/cart.png" class="pixel-icon"></button>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <h3>Описание заказа</h3>
+                <textarea placeholder="Комментарий к заказу (необязательно)" rows="3"></textarea>
+                <div class="total-row">
+                    <strong>Итого:</strong>
+                    <span class="total-price">16,0 <img src="img/coin.png" alt="монета" class="coin"></span>
+                </div>
+                <button class="btn-primary btn-full-width">Оформить →</button>
+            </div>
+        </div>
+
+        <div class="info-block">
+            <span class="info-block-icon"><img src="img/info.png" class="pixel-icon" alt=""></span>
+            <p>Корзина — это финальный шаг, где бонусы превращаются в реальные покупки.</p>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="logo"><img src="img/Blacklogo.png" alt="logo"></div>
+            <div>
+                <h4>Навигация</h4>
+                <a href="Home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="gameroom.html">Игровая комната</a>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <p>Да@gmil.ru</p>
+                <p>+7 (495) 123-45-67</p>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Корзина</p></div>
+    </div>
+</footer>
+
+</body>
+</html>

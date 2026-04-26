@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro таймер</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo"><img src="img/Whitelogo.png" alt="logo"></div>
+            <nav class="nav-links">
+                <a href="Home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="gameroom.html">Игровая комната</a>
+                <a href="admin.html">Админ-панель</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-wrap">
+                    <img src="img/search.png" class="pixel-icon" alt="поиск">
+                    <input type="text" placeholder="Поиск...">
+                </div>
+                <a href="cart.html" class="icon-btn"><img src="img/cart.png" class="pixel-icon" alt="корзина"></a>
+                <a href="cabinet.html" class="icon-btn"><img src="img/user.png" class="pixel-icon" alt="профиль"></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="page-header">
+            <h1>⏱️ POMODORO ТАЙМЕР</h1>
+            <p>Техника Pomodoro помогает концентрироваться и эффективно управлять временем</p>
+        </div>
+
+        <div class="pomodoro-grid">
+            <div class="pomodoro-timer">
+                <div class="timer-display">25:00</div>
+                <div class="timer-session-label">Рабочая сессия</div>
+                <div class="timer-controls">
+                    <button class="btn-primary">Старт</button>
+                    <button class="btn-outline">Пауза</button>
+                    <button class="btn-outline">Сброс</button>
+                </div>
+                <div class="timer-cycles">Завершено циклов: 0</div>
+            </div>
+            <div class="pomodoro-settings">
+                <h3><img src="img/settings.png" class="pixel-icon" alt=""> Настройки</h3>
+                <div class="setting-item">
+                    <label>Рабочее время:</label>
+                    <input type="number" value="25"> мин
+                </div>
+                <div class="setting-item">
+                    <label>Короткий перерыв:</label>
+                    <input type="number" value="5"> мин
+                </div>
+                <div class="setting-item">
+                    <label>Длинный перерыв:</label>
+                    <input type="number" value="15"> мин
+                </div>
+                <div class="setting-item">
+                    <label>Каждые:</label>
+                    <input type="number" value="4"> циклов
+                </div>
+                <button class="btn-sm">Применить</button>
+            </div>
+            <div class="pomodoro-settings">
+                <h3><img src="img/Wheel2.png" class="pixel-icon" alt=""> Ваша статистика за сегодня</h3>
+                <div class="stat-row">
+                    <span>Рабочее время:</span>
+                    <strong>0 мин.</strong>
+                </div>
+                <div class="stat-row">
+                    <span>Перерыв:</span>
+                    <strong>0 мин.</strong>
+                </div>
+                <div class="stat-row">
+                    <span>Завершено сессий:</span>
+                    <strong>0</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-block">
+            <span class="info-block-icon"><img src="img/lightbulb.png" class="pixel-icon" alt=""></span>
+            <p>Встроенный инструмент для повышения продуктивности сотрудников. Классический метод «25 минут работы + 5 минут отдыха».</p>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="logo"><img src="img/Blacklogo.png" alt="logo"></div>
+            <div>
+                <h4>Навигация</h4>
+                <a href="Home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="gameroom.html">Игровая комната</a>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <p>Да@gmil.ru</p>
+                <p>+7 (495) 123-45-67</p>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Pomodoro таймер</p></div>
+    </div>
+</footer>
+
+</body>
+</html>

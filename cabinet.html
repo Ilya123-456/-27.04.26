@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo"><img src="img/Whitelogo.png" alt="logo"></div>
+            <nav class="nav-links">
+                <a href="Home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="gameroom.html">Игровая комната</a>
+                <a href="admin.html">Админ-панель</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-wrap">
+                    <img src="img/search.png" class="pixel-icon" alt="поиск">
+                    <input type="text" placeholder="Поиск...">
+                </div>
+                <a href="cart.html" class="icon-btn"><img src="img/cart.png" class="pixel-icon" alt="корзина"></a>
+                <a href="cabinet.html" class="icon-btn"><img src="img/user.png" class="pixel-icon" alt="профиль"></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="page-header">
+            <h1><img src="img/user.png" class="pixel-icon-md" alt=""> ЛИЧНЫЙ КАБИНЕТ</h1>
+            <p>Управляйте своим профилем и следите за балансом</p>
+        </div>
+
+        <div class="balance-card">
+            <h2><img src="img/money.png" class="pixel-icon" alt=""> Баланс</h2>
+            <div class="balance-stats">
+                <div class="balance-stat">
+                    <div class="balance-stat-label">Текущий баланс:</div>
+                    <div class="balance-stat-value">2 735,76 <img src="img/coin.png" alt="монета" class="coin"></div>
+                </div>
+                <div class="balance-stat">
+                    <div class="balance-stat-label">Общая сумма зачислений:</div>
+                    <div class="balance-stat-value">707,76 <img src="img/coin.png" alt="монета" class="coin"></div>
+                </div>
+                <div class="balance-stat">
+                    <div class="balance-stat-label">Общая сумма затрат:</div>
+                    <div class="balance-stat-value">2 176,00 <img src="img/coin.png" alt="монета" class="coin"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cabinet-grid">
+            <div class="cabinet-card">
+                <h3><img src="img/edit.png" class="pixel-icon-md2" alt=""> Изменить информацию</h3>
+                <div class="form-field">
+                    <label>ФИО</label>
+                    <input type="text" value="Иван Иванов">
+                </div>
+                <div class="form-field">
+                    <label>Телефон</label>
+                    <input type="tel" value="+7 (999) 123-45-67">
+                </div>
+                <div class="form-field">
+                    <label>E-mail</label>
+                    <input type="email" value="ivan@company.ru">
+                </div>
+                <div class="form-field">
+                    <label>О себе</label>
+                    <textarea rows="3">Не мешайте, я работаю</textarea>
+                </div>
+                <button class="btn-primary">Сохранить изменения</button>
+            </div>
+
+            <div class="cabinet-card">
+                <h3><img src="img/phone2.png" class="pixel-icon-md2" alt=""> Приватный телефон</h3>
+                <p class="telegram-text">Отправим ссылку для привязки Telegram аккаунта на указанный e-mail.</p>
+                <button class="btn-primary">Привязать Telegram</button>
+            </div>
+
+            <div class="cabinet-card">
+                <h3><img src="img/midal.png" class="pixel-icon-md2" alt=""> Мои достижения</h3>
+                <div class="achievements-list">
+                    <div class="achievement-tag">⭐ Первые шаги</div>
+                    <div class="achievement-tag">🚀 Продуктивный день</div>
+                    <div class="achievement-tag">🏆 Топ-3 недели</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="logo"><img src="img/Blacklogo.png" alt="logo"></div>
+            <div>
+                <h4>Навигация</h4>
+                <a href="Home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="gameroom.html">Игровая комната</a>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <p>Да@gmil.ru</p>
+                <p>+7 (495) 123-45-67</p>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Личный кабинет</p></div>
+    </div>
+</footer>
+
+</body>
+</html>
